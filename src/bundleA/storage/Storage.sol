@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.23;
 
-import "../storage/Schema.sol";
+import "./Schema.sol";
 
 library Storage {
     function state() internal pure returns (Schema.GlobalState storage s) {
